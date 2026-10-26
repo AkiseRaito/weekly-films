@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情（2026-10-26 · 第 51 期）</title>
+<style>
+:root{
+  --bg:#0b0d12; --card:#14171f; --card2:#191d27; --line:#252b3a;
+  --tx:#e7e9f0; --mut:#98a1b5; --acc:#f27a9d; --acc2:#7cc4ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+  font:15px/1.78 "PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 20px 80px}
+header h1{margin:0 0 8px;font-size:30px;letter-spacing:.5px}
+header .sub{color:var(--mut);font-size:13.5px;margin-bottom:6px;line-height:1.7}
+header .meta{color:#6f7891;font-size:12.5px;margin-top:12px;line-height:1.8}
+.pill{display:inline-block;padding:2px 10px;border:1px solid var(--line);border-radius:99px;
+  color:var(--mut);font-size:12px;margin:0 6px 6px 0}
+table{width:100%;border-collapse:collapse;margin:26px 0 8px;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:500;font-size:12.5px}
+.qn{color:var(--acc);width:38px}
+.qg{color:var(--mut)}
+.qr{color:var(--acc2);white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:26px 26px 22px;margin:34px 0;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--acc),transparent)}
+.no{position:absolute;right:18px;top:10px;font-size:44px;font-weight:700;color:#1e2432;letter-spacing:-1px}
+.head{display:flex;gap:20px}
+.poster{flex:0 0 170px}
+.poster-img{width:170px;border-radius:10px;display:block;background:var(--card2)}
+.head-r{flex:1;min-width:0}
+.tagrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.tag{background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.3);
+  padding:2px 10px;border-radius:99px;font-size:12px}
+.year{color:var(--mut);font-size:12.5px}
+h2{margin:0 0 10px;font-size:22px;line-height:1.35}
+h2 .en{font-size:13px;color:var(--mut);font-weight:400;display:block;margin-top:3px}
+.rates{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rate{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:12px;color:var(--mut)}
+.rate b{color:var(--acc2);margin-right:5px;font-size:13px}
+.oneline{margin:6px 0 0;color:#cdd3e2;font-size:15px}
+.block{margin-top:20px}
+.block h3{margin:0 0 8px;font-size:14px;color:var(--acc);letter-spacing:.5px;font-weight:600}
+.block p{margin:0;color:#c8cee0}
+ul.hi{margin:0;padding-left:18px;color:#c8cee0}
+ul.hi li{margin:5px 0}
+.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stills figure{margin:0;border-radius:10px;overflow:hidden;background:var(--card2)}
+.stills img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+blockquote{margin:0;padding:12px 16px;background:var(--card2);border-left:3px solid var(--acc);
+  border-radius:0 8px 8px 0;color:#d3d9ea;font-size:14.5px}
+.why p{color:#b9c0d3}
+.crew{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.person{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+.p-top{display:flex;align-items:center;gap:10px}
+.p-ava{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:0 0 48px;display:block;background:#212734}
+.p-name{font-size:14px;font-weight:600;line-height:1.3}
+.p-role{color:var(--mut);font-size:11px;font-weight:400;margin-left:4px}
+.p-note{color:#7e879e;font-size:11.5px;line-height:1.6;margin:8px 0 0}
+.p-kn{color:var(--mut);font-size:10.5px;margin:8px 0 4px;letter-spacing:.3px}
+.p-works{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.wk{text-align:center}
+.wk img{width:100%;display:block;border-radius:4px;background:#212734;aspect-ratio:2/3;object-fit:cover}
+.wk span{display:block;font-size:9.5px;color:#b9c0d3;line-height:1.25;margin-top:3px}
+footer{margin-top:44px;color:#6f7891;font-size:12.5px;border-top:1px solid var(--line);padding-top:18px;line-height:1.8}
+.byline{display:inline-block;padding:2px 10px;margin:0 4px;border-radius:99px;
+  background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.38);
+  font-size:12px;letter-spacing:.4px}
+@media(max-width:860px){
+  .head{flex-direction:column} .poster-img{width:150px}
+  .stills{grid-template-columns:1fr} .p-works{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情</h1>
+  <div class="sub">2026 年 10 月 26 日 · 第 51 期 · 已避开往期推荐过的全部 500 部</div>
+  <div>
+    <span class="pill">主题：这四年被反复谈论的十部口碑之作（2021–2024）</span>
+    <span class="pill">全部 1990 年后：最早 2021，最晚 2024，按上映年份排列</span>
+    <span class="pill">类型覆盖：剧情 10 / 喜剧 4 / 悬疑 3 / 惊悚 2 / 爱情 2 / 传记 1 / 家庭 1 / 犯罪 1 / 科幻 1</span>
+    <span class="pill">海报 + 3 张镜头 + 主创头像 + 历史作品海报</span>
+    <span class="pill">轻微剧透短评</span>
+  </div>
+  <div class="meta">评分来源：豆瓣 / 烂番茄 / Metacritic / IMDb，采集于 2026-10-26，会随时间变动，仅供参考。<br>
+  这一期是一次「回望」：往期第 30、35、37、38 四期覆盖的是 2001–2023 年的类型片主线，而 2025 年以来的新片（《一战再战》《罪人》《凶器》《弗兰肯斯坦》等）也已在第 1、4、6 等期集中收过一批。本期把时间拨回 2021–2024 这四年，收下这期间在奥斯卡、三大电影节与社交平台上<b>被反复谈论的十部</b>——它们有的拿了奖（《阿诺拉》五座奥斯卡、《粗野派》三座），有的拿了提名却颗粒无收（《花月杀手》《伊尼舍林的报丧女妖》各十项、九项提名零获奖），有的压根没去颁奖季玩（《姥姥的外孙》靠口碑从泰国一路刷到中国），有的引发了全民争吵（《不要抬头》）。十部里有三部华语或亚洲邻国的院线片（《隐入尘烟》《河边的错误》《怪物》）和一部泰国现象级家庭片（《姥姥的外孙》），剩下六部来自欧美颁奖季与流媒体。按上映年份排列，最早 2021，最晚 2024。<br>
+  需要说明的几处取舍：这个区间里名气最大的几部——《奥本海默》《坠落的审判》《利益区域》《瞬息全宇宙》《可怜的东西》——本期都没有收（前四部已在往期出现过，《可怜的东西》与本期的喜剧气质不符），《芭比》等同档期的票房热门也刻意没有收。本期的选片口径只有一条：<b>这四年里你大概在热搜、播客和颁奖季报道里反复遇见过它，但还没看过</b>。<br>
+  跨期重合如实写出，按 10-02 定的口径<b>只按片名去重</b>：本期 10 个片名全部首次出现（比对 500 部去重表通过）。主创方面，35 位主创（36 张卡片）里有 10 位上过往期卡片：<b>莱昂纳多·迪卡普里奥</b>（第 1、5 部）是第 4 期《一战再战》、第 12 期《禁闭岛》、第 35 期《盗梦空间》、第 45 期《荒野猎人》、第 47 期《猫鼠游戏》的主创——<b>上过五期卡片，是本期上卡次数最多的主创，且本期内部就出现两次（《不要抬头》与《花月杀手》）</b>；<b>马丁·斯科塞斯</b>（第 5 部导演）是第 12 期《禁闭岛》的导演；<b>罗伯特·德尼罗</b>（第 5 部）上过第 16 期《妙想天开》与第 48 期《盗火线》；<b>马丁·麦克唐纳</b>（第 3 部导演）执导过第 18 期《三块广告牌》；<b>科林·法瑞尔</b>（第 3 部）是第 18 期《狙击电话亭》与第 50 期《龙虾》的主创；<b>盖·皮尔斯</b>（第 10 部）是第 36 期《记忆碎片》的主创；<b>是枝裕和与安藤樱</b>（第 4 部）正是第 30 期《小偷家族》的导演与主演；<b>杰西·艾森伯格</b>（第 9 部）上过第 22 期《僵尸之地》与第 34 期《社交网络》；<b>亚当·麦凯</b>（第 1 部导演）执导过第 34 期《大空头》。其余 25 位主创第一次出现在片单卡片上。<br>
+  口碑落差如实标注、不做修饰：<b>《阿诺拉》是本期落差最大的一部</b>——烂番茄 93% / Metacritic 91、五座奥斯卡在手，豆瓣却只有 6.3；<b>《不要抬头》是反向落差</b>——烂番茄 56% / Metacritic 49 的专业低分，挡不住豆瓣 7.6 与当年破纪录的观看量；《粗野派》同样典型（烂番茄 93% / Metacritic 90，豆瓣 7.2）；《花月杀手》则是「叫好不叫座」的财务注脚：2 亿美元成本、1.588 亿美元全球票房，十项奥斯卡提名零获奖。本期评分最高的是《怪物》（豆瓣 8.6 / 烂番茄 97%）与《姥姥的外孙》（豆瓣 8.8 / 烂番茄 98%）。<br>
+  内地引进情况：<b>十部中有三部在内地院线公映过</b>——《隐入尘烟》（2022-07-08）、《河边的错误》（2023-10-21）、《姥姥的外孙》（2024-08-23，票房约 1.27 亿元）；其余七部均未在内地院线公映，通过流媒体、影展或影碟观看。<br>
+  10 部片名全部为首次出现，无一与往期 500 部重复（比对去重表通过）。<br>
+  图片素材抓取自 TMDB，仅作观影参考，版权归各片方所有。</div>
+</header>
+
+<table>
+<thead><tr><th>#</th><th>片名</th><th>类型</th><th>评分 / 状态</th></tr></thead>
+<tbody>
+<tr><td class="qn">01</td><td>不要抬头</td><td class="qg">科幻 / 喜剧 / 剧情（美国 · 一颗彗星正在飞来，没有人愿意抬头）</td><td class="qr">7.6 / 56% / 49</td></tr><tr><td class="qn">02</td><td>隐入尘烟</td><td class="qg">剧情 / 爱情（中国 · 甘肃高台 · 两个被生活剩下的人）</td><td class="qr">8.4 / 96% / 79</td></tr><tr><td class="qn">03</td><td>伊尼舍林的报丧女妖</td><td class="qg">黑色喜剧 / 剧情（爱尔兰 · 一个男人决定不再和好朋友说话）</td><td class="qr">7.9 / 96% / 87</td></tr><tr><td class="qn">04</td><td>怪物</td><td class="qg">剧情 / 悬疑（日本 · 一桩校园冲突的三个版本）</td><td class="qr">8.6 / 97% / 79</td></tr><tr><td class="qn">05</td><td>花月杀手</td><td class="qg">悬疑 / 惊悚 / 剧情 / 犯罪（美国 · 石油、印第安人与一桩谋杀案）</td><td class="qr">7.2 / 93% / 89</td></tr><tr><td class="qn">06</td><td>河边的错误</td><td class="qg">悬疑 / 惊悚 / 剧情（中国 · 1995 年江南小镇的一桩河边凶案）</td><td class="qr">7.2 / 85% / 6.6</td></tr><tr><td class="qn">07</td><td>姥姥的外孙</td><td class="qg">剧情 / 家庭（泰国 · 一个全职孙子的继承之战）</td><td class="qr">8.8 / 98% / 74</td></tr><tr><td class="qn">08</td><td>阿诺拉</td><td class="qg">剧情 / 喜剧 / 爱情（美国 · 布鲁克林的一场闪婚）</td><td class="qr">6.3 / 93% / 91</td></tr><tr><td class="qn">09</td><td>真正的痛苦</td><td class="qg">剧情 / 喜剧（波兰 / 美国 · 两个堂兄弟的创伤之旅）</td><td class="qr">7.8 / 96% / 85</td></tr><tr><td class="qn">10</td><td>粗野派</td><td class="qg">剧情 / 传记（美国 / 英国 / 匈牙利 · 一个建筑师的美国梦）</td><td class="qr">7.2 / 93% / 90</td></tr>
+</tbody>
+</table>
+
+
+  <section class="card" id="m1">
+    <div class="no">01</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/lookup_646380_poster.jpg" alt="不要抬头 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">科幻 / 喜剧 / 剧情（美国 · 一颗彗星正在飞来，没有人愿意抬头）</span><span class="year">2021 · 美国 · 138 分钟 · 内地未映（Netflix）</span></div>
+        <h2>不要抬头 <span class="en">Don&#x27;t Look Up</span></h2>
+        <div class="rates"><span class="rate"><b>7.6</b>豆瓣</span><span class="rate"><b>56%</b>烂番茄</span><span class="rate"><b>49</b>Metacritic</span><span class="rate"><b>7.1</b>IMDb</span></div>
+        <p class="oneline">「「有一颗彗星六个月后撞上地球——现在，谁先去投票？」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>密歇根州立大学天文学博士生凯特·迪比亚斯基在观测数据里发现了一颗新彗星，导师兰道尔·明迪博士核算轨道后脸色发白：直径五到十公里，大约六个月后撞上智利近海，足以让地球生命重来一遍。NASA 的泰迪证实了计算，三人飞往华盛顿，而白宫把这桩灭绝危机排到了中期选举之后。走投无路的两人登上全国最火的晨间节目《每日猛料》，想直接警告公众——主持人不当回事，凯特当场崩溃，片段被做成表情包，明迪反而因为外形走了红。最后接住这颗彗星的是手机巨头 BASH 的掌门人伊舍威尔：他提议把彗星炸碎、开采稀土，而总统拍板支持他的方案。至于方案的可靠性，以及六个月后那个确定的夜晚，已经没有人再有兴趣抬头看了。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>亚当·麦凯执导，与记者大卫·西罗塔共同构思——<b>从《大空头》的金融灾难到本片的星球灾难，他拍的其实是同一件事：真相如何被当成一个可以公关的麻烦</b>。</li><li>莱昂纳多·迪卡普里奥、詹妮弗·劳伦斯、梅丽尔·斯特里普、凯特·布兰切特、乔纳·希尔、马克·里朗斯、蒂莫西·查拉梅、爱莉安娜·格兰德——<b>一张几乎把好莱坞半壁搬来的卡司表</b>，连客串都是朗·普尔曼和基德·库迪。</li><li>上线首周观看时长约 1.52 亿小时，<b>创下当时 Netflix 电影的开播纪录</b>；约 7500 万美元的预算，也是当年网飞投资最大的电影之一。</li><li>第 94 届奥斯卡四项提名（最佳影片、原创剧本、剪辑、原创配乐）——<b>一部流媒体电影入围最佳影片，在当年还是新闻</b>。</li><li>口碑两极到罕见：烂番茄 56% / Metacritic 49，豆瓣却有 7.6——<b>海外影评人嫌它把讽刺抡得太满，中文观众却普遍觉得每一句都对上了现实</b>。</li><li>尼古拉斯·布里尔的配乐把末日拍成了爵士乐队的狂欢——<b>这是全片最好笑也最冷的一层</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/lookup_646380_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lookup_646380_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lookup_646380_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_55710.jpg" alt="" loading="lazy">
+                <div class="p-name">亚当·麦凯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、制片人，从《王牌播音员》的搞笑到《大空头》的愤怒，再到本片的末日讽刺。<b>往期第 34 期《大空头》的导演正是他。</b>他本期第一次以「末日喜剧导演」的身份回到卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_318846.jpg" alt="" loading="lazy"><span>大空头</span></div><div class="wk"><img src="assets/movies/w_8699.jpg" alt="" loading="lazy"><span>王牌播音员</span></div><div class="wk"><img src="assets/movies/w_27581.jpg" alt="" loading="lazy"><span>二流警探</span></div><div class="wk"><img src="assets/movies/w_429197.jpg" alt="" loading="lazy"><span>副总统</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_6193.jpg" alt="" loading="lazy">
+                <div class="p-name">莱昂纳多·迪卡普里奥 <span class="p-role">主演（明迪教授）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡影帝（《荒野猎人》）。《泰坦尼克号》《盗梦空间》《猫鼠游戏》。本片他演明迪教授——一个靠「颜值」而不是「数据」走红的天文学家。<b>往期第 4 期《一战再战》、第 12 期《禁闭岛》、第 35 期《盗梦空间》、第 45 期《荒野猎人》、第 47 期《猫鼠游戏》的主创卡片上都是他——是本期上过卡片次数最多的主创（五期），本期第 5 部《花月杀手》他还将再出现一次。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_27205.jpg" alt="" loading="lazy"><span>盗梦空间</span></div><div class="wk"><img src="assets/movies/w_597.jpg" alt="" loading="lazy"><span>泰坦尼克号</span></div><div class="wk"><img src="assets/movies/w_106646.jpg" alt="" loading="lazy"><span>华尔街之狼</span></div><div class="wk"><img src="assets/movies/w_11324.jpg" alt="" loading="lazy"><span>禁闭岛</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_72129.jpg" alt="" loading="lazy">
+                <div class="p-name">詹妮弗·劳伦斯 <span class="p-role">主演（迪比亚斯基）</span></div>
+              </div>
+              <div class="p-note">美国演员，奥斯卡影后（《乌云背后的幸福线》）。《饥饿游戏》系列、《太空旅客》。本片她演凯特——全片唯一一个从头崩溃到尾、也唯一一个「没有疯」的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_70160.jpg" alt="" loading="lazy"><span>饥饿游戏</span></div><div class="wk"><img src="assets/movies/w_101299.jpg" alt="" loading="lazy"><span>饥饿游戏2：星火燎原</span></div><div class="wk"><img src="assets/movies/w_131631.jpg" alt="" loading="lazy"><span>饥饿游戏3：嘲笑鸟（上）</span></div><div class="wk"><img src="assets/movies/w_274870.jpg" alt="" loading="lazy"><span>太空旅客</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5064.jpg" alt="" loading="lazy">
+                <div class="p-name">梅丽尔·斯特里普 <span class="p-role">主演（奥尔良总统）</span></div>
+              </div>
+              <div class="p-note">美国演员，<b>奥斯卡历史上提名最多的演员（21 次提名、3 次获奖）</b>。《穿普拉达的女王》《华盛顿邮报》《妈妈咪呀》。本片她演奥尔良总统——一个把「世界末日」当成选情数据的国家元首。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_350.jpg" alt="" loading="lazy"><span>穿普拉达的女王</span></div><div class="wk"><img src="assets/movies/w_446354.jpg" alt="" loading="lazy"><span>华盛顿邮报</span></div><div class="wk"><img src="assets/movies/w_11631.jpg" alt="" loading="lazy"><span>妈妈咪呀</span></div><div class="wk"><img src="assets/movies/w_10315.jpg" alt="" loading="lazy"><span>了不起的狐狸爸爸</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最荒诞的一场戏不是彗星撞地球，是那艘采矿飞船飞到一半自己掉头——理由不是技术故障，是「矿不值这个价」。轻微剧透：结局被安排成一桌最后的晚餐：明迪一家和凯特坐在桌边等死，而屏幕外的我们早就知道他们要等多久。这不是一部让人舒服的喜剧，它把「知道真相却什么都不会发生」拍成了类型片。看完之后，你每次在信息流里刷到热点，都会想起那档把末日做成表情包的晨间节目。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「讽刺喜剧能拍得多不留情面」的人；能接受全员丑角、没有英雄、以及它本质上是一部「我们怎么亲手搞砸自己」的电影的观众。内地未映，Netflix 可看。看完想继续：《大空头》（往期第 34 期，同导演）、《副总统》（同导演）、《天地大冲撞》与《世界末日》（1998 年两部彗星片，另一种拍法）。</p>
+    </div>
+  </section>
+  <section class="card" id="m2">
+    <div class="no">02</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/dust_928720_poster.jpg" alt="隐入尘烟 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 爱情（中国 · 甘肃高台 · 两个被生活剩下的人）</span><span class="year">2022 · 中国 · 133 分钟 · 内地已映（2022-07-08）</span></div>
+        <h2>隐入尘烟 <span class="en">Return to Dust</span></h2>
+        <div class="rates"><span class="rate"><b>8.4</b>豆瓣</span><span class="rate"><b>96%</b>烂番茄</span><span class="rate"><b>79</b>Metacritic</span><span class="rate"><b>7.6</b>IMDb</span></div>
+        <p class="oneline">「「被剩下的人，也可以把日子过成日子。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>甘肃高台，两个被各自家庭当成累赘的人被撮合到了一起：马有铁是村里最穷的光棍，寄居在三哥家，给侄子拉过嫁妆；曹贵英跛脚、尿失禁、不能生育，被哥嫂打发去了媒人说的「那个人家」。两人搬进村里弃置的土屋，从赊账买麦种开始：种地、孵鸡、盖土坯房、收麦子，一驴一车一四季。有铁两次被拉去给承包了村里土地的张永福献血，全村的地租因此续上；贵英心疼，却说不上话。秋天，贵英揣着馍馍和鸡蛋去给有铁送饭，在渠沟边头晕，栽进了河里。有铁还清所有账，放走驴子，在床头躺下。影片最后一行字幕说：2011 年冬，老马在政府和热心村民的帮助下乔迁新居。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>李睿珺执导，<b>入围第 72 届柏林电影节主竞赛单元（金狮奖提名）</b>，并拿下瓦拉多利德国际电影节金穗奖。</li><li>除海清之外，<b>全片主要角色几乎都是导演的亲戚和当地农民</b>——男主角武仁林是导演的姨父，一个地道的甘肃农民。</li><li>海清为演贵英在甘肃农村住了几个月，<b>学张掖方言、干农活、练跛脚走路</b>——成片里完全看不出她是《小欢喜》里那个上海妈妈。</li><li>影片按真实农时跨四季拍摄：赊账买种、孵鸡、盖房、收割，<b>全片几乎没有「苦情戏」的表演痕迹，情绪全部长在农活里</b>。</li><li>内地票房逆袭：首日不足 35 万元、排片占比 2.3%，上线流媒体后被短视频二创带飞，<b>第 59 天单日票房超过 1400 万元，最终 1.1 亿元——中国文艺片市场天花板级的案例</b>。</li><li>豆瓣从开分 7.8 一路涨到 8.5（现 8.4）；<b>公映约三个月后从各流媒体平台下架，至今没有公开说明</b>——这本身也成了中国电影史上被反复引用的一页。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/dust_928720_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/dust_928720_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/dust_928720_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1085920.jpg" alt="" loading="lazy">
+                <div class="p-name">李睿珺 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">中国导演，甘肃人，常年把镜头对准西北农村与县城。《告诉他们，我乘白鹤去了》《家在水草丰茂的地方》《路过未来》。本片让他从「影展导演」变成了一次年度文化事件。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_127907.jpg" alt="" loading="lazy"><span>告诉他们，我乘白鹤去了</span></div><div class="wk"><img src="assets/movies/w_314614.jpg" alt="" loading="lazy"><span>家在水草丰茂的地方</span></div><div class="wk"><img src="assets/movies/w_455585.jpg" alt="" loading="lazy"><span>路过未来</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3389407.jpg" alt="" loading="lazy">
+                <div class="p-name">武仁林 <span class="p-role">主演（马有铁）</span></div>
+              </div>
+              <div class="p-note">甘肃农民，导演李睿珺的姨父，<b>本片是他的第一部电影</b>。他演的马有铁几乎不需要「表演」——他只是在镜头前继续当他的农民。他本期第一次出现在片单卡片上。</div>
+              
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1018563.jpg" alt="" loading="lazy">
+                <div class="p-name">海清 <span class="p-role">主演（曹贵英）</span></div>
+              </div>
+              <div class="p-note">中国演员，《媳妇的美好时代》《蜗居》《小欢喜》。为演贵英，她在甘肃农村住了几个月，学方言、干农活、练跛脚走路。本片被普遍认为是她职业生涯的转折点。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_460555.jpg" alt="" loading="lazy"><span>红海行动</span></div><div class="wk"><img src="assets/movies/w_188183.jpg" alt="" loading="lazy"><span>北京遇上西雅图</span></div><div class="wk"><img src="assets/movies/w_55741.jpg" alt="" loading="lazy"><span>赵氏孤儿</span></div><div class="wk"><img src="assets/movies/w_1190488.jpg" alt="" loading="lazy"><span>我本是高山</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最疼的一个镜头，是有铁还完账回到屋里，看到贵英给他编的草驴还放在桌上。轻微剧透：影片没有拍他喝药，只拍他躺下、手垂下去、桌上多了一个农药瓶——而最后一行字幕用「乔迁新居」给这一切盖了章。这不是一部苦情片，它甚至不肯给观众一个可以哭的高潮；它的力量全部来自两个人把日子一天一天过回去的过程。看完你会明白，为什么那么多人说「这不是爱情片，是生活片」。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「剧情片能拍得多安静、多狠」的人；能接受方言对白、几乎没有戏剧转折、以及它本质上是一部关于「尊严」的电影的观众。内地已映，公映后曾上线流媒体又下架，目前国内难有正版渠道，海外有影碟与数字版渠道可看。看完想继续：《告诉他们，我乘白鹤去了》《家在水草丰茂的地方》（同导演）、《路过未来》（同导演，另一部县城叙事）。</p>
+    </div>
+  </section>
+  <section class="card" id="m3">
+    <div class="no">03</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/banshee_674324_poster.jpg" alt="伊尼舍林的报丧女妖 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">黑色喜剧 / 剧情（爱尔兰 · 一个男人决定不再和好朋友说话）</span><span class="year">2022 · 爱尔兰 / 英国 · 114 分钟 · 内地未映</span></div>
+        <h2>伊尼舍林的报丧女妖 <span class="en">The Banshees of Inisherin</span></h2>
+        <div class="rates"><span class="rate"><b>7.9</b>豆瓣</span><span class="rate"><b>96%</b>烂番茄</span><span class="rate"><b>87</b>Metacritic</span><span class="rate"><b>7.6</b>IMDb</span></div>
+        <p class="oneline">「「我只是忽然不想再跟你说话了。」——友谊的死讯，比任何谋杀都难懂。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1923 年，爱尔兰内战打到尾声，伊尼舍林岛的日子照旧。一天午后，音乐家科尔姆走进常去的酒吧，宣布从今天起不再和邻居帕德里克说话——「我只是想把剩下的时间用在作曲上，不想再听你讲两个小时的废话」。帕德里克不肯接受，一次次去堵他；科尔姆的价码越加越高：再来纠缠一次，他就剪掉自己一根手指。帕德里克的妹妹西沃恩看不下去了，少年多米尼克想帮忙却总是帮倒忙，而海对岸的炮声，正在为这场「友谊谋杀」伴奏。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>马丁·麦克唐纳自编自导——<b>片名呼应他 1996 年的名剧《丽南巴恩的女妖》，是他从剧场到电影的一以贯之</b>；本片也是他继《三块广告牌》之后时隔五年的新作。</li><li>第 79 届威尼斯电影节：<b>科林·法瑞尔拿下沃尔皮杯最佳男演员，麦克唐纳拿下最佳编剧</b>，首映 15 分钟起立鼓掌，是那年电影节最长的一次。</li><li>第 95 届奥斯卡九项提名（最佳影片、导演、男主角、两个男配角、女配角、原创剧本、剪辑、配乐），<b>最终零获奖</b>——那一届最大的遗珠。</li><li>科林·法瑞尔与布莱丹·格里森<b>继《在布鲁日》之后再次搭档</b>，一对把「爱尔兰男人的沉默」演成喜剧与悲剧的活化石。</li><li>巴里·基奥恩演的多米尼克戏份不多，<b>却凭此片拿到奥斯卡最佳男配提名</b>；那只叫珍妮的驴子，是当年红遍社交媒体的「动物影星」。</li><li>影片把 1923 年爱尔兰内战放进了背景音：<b>海对岸的炮声与岛上的绝交信，构成全片最冷的历史互文</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/banshee_674324_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/banshee_674324_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/banshee_674324_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_54472.jpg" alt="" loading="lazy">
+                <div class="p-name">马丁·麦克唐纳 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">爱尔兰 / 英国编剧、导演，从剧场起步（片名呼应他的名剧《丽南巴恩的女妖》）。《在布鲁日》《七个神经病》《三块广告牌》。<b>往期第 18 期《三块广告牌》的导演正是他。</b>本片为他拿到威尼斯最佳编剧。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_359940.jpg" alt="" loading="lazy"><span>三块广告牌</span></div><div class="wk"><img src="assets/movies/w_8321.jpg" alt="" loading="lazy"><span>杀手没有假期</span></div><div class="wk"><img src="assets/movies/w_86838.jpg" alt="" loading="lazy"><span>七个神经病</span></div><div class="wk"><img src="assets/movies/w_25126.jpg" alt="" loading="lazy"><span>六发子弹的手枪</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_72466.jpg" alt="" loading="lazy">
+                <div class="p-name">科林·法瑞尔 <span class="p-role">主演（Pádraic）</span></div>
+              </div>
+              <div class="p-note">爱尔兰演员，两届金球奖得主。《狙击电话亭》《在布鲁日》《龙虾》。本片他演帕德里克——一个被「绝交」逼到用拳头思考的人，<b>凭沃尔皮杯拿下威尼斯影帝</b>。<b>往期第 18 期《狙击电话亭》与第 50 期《龙虾》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_254320.jpg" alt="" loading="lazy"><span>龙虾</span></div><div class="wk"><img src="assets/movies/w_64635.jpg" alt="" loading="lazy"><span>全面回忆</span></div><div class="wk"><img src="assets/movies/w_8321.jpg" alt="" loading="lazy"><span>杀手没有假期</span></div><div class="wk"><img src="assets/movies/w_180.jpg" alt="" loading="lazy"><span>少数派报告</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2039.jpg" alt="" loading="lazy">
+                <div class="p-name">布莱丹·格里森 <span class="p-role">主演（Colm）</span></div>
+              </div>
+              <div class="p-note">爱尔兰演员，《哈利·波特》系列（疯眼汉穆迪）、《在布鲁日》《惊变28天》。本片他演科尔姆——一个用剪手指来争取「独处权」的音乐家，凭此片拿到奥斯卡最佳男配提名。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_674.jpg" alt="" loading="lazy"><span>哈利·波特与火焰杯</span></div><div class="wk"><img src="assets/movies/w_137113.jpg" alt="" loading="lazy"><span>明日边缘</span></div><div class="wk"><img src="assets/movies/w_8321.jpg" alt="" loading="lazy"><span>杀手没有假期</span></div><div class="wk"><img src="assets/movies/w_170.jpg" alt="" loading="lazy"><span>惊变28天</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_62105.jpg" alt="" loading="lazy">
+                <div class="p-name">凯瑞·康顿 <span class="p-role">主演（Siobhán）</span></div>
+              </div>
+              <div class="p-note">爱尔兰演员，凭《三块广告牌》被看见，并在漫威系列里为钢铁侠的 AI 助手配音。本片她演西沃恩——全片唯一一个「不疯」的人，凭此片拿到奥斯卡最佳女配提名与 BAFTA 最佳女配角。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_911430.jpg" alt="" loading="lazy"><span>F1：狂飙飞车</span></div><div class="wk"><img src="assets/movies/w_359940.jpg" alt="" loading="lazy"><span>三块广告牌</span></div><div class="wk"><img src="assets/movies/w_299536.jpg" alt="" loading="lazy"><span>复仇者联盟3：无限战争</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最冷的一场戏，是科尔姆把剪下来的手指一根根放在桌上，而帕德里克还在问他「你这是何必」。轻微剧透：影片的结尾停在帕德里克站在海边，驴子留在屋里——内战结束了，友谊没有。麦克唐纳最狠的地方，是让这两个男人从头到尾都没有坏人：科尔姆只是不想再浪费时间，帕德里克只是不肯被丢下。我们笑的每一次，都在为这两个人的孤独买单。看完你会给最好的朋友发一条消息，然后什么都说不出来。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「喜剧能把友谊的死亡拍得多郑重」的人；能接受冷幽默、荒诞升级、以及它本质上是一部关于「男性如何不会表达」的电影的观众。内地未映，流媒体与蓝光可看。看完想继续：《在布鲁日》（同导演、同双男主）、《七个神经病》（同导演）、《三块广告牌》（往期第 18 期，同导演）。</p>
+    </div>
+  </section>
+  <section class="card" id="m4">
+    <div class="no">04</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/monster_1050035_poster.jpg" alt="怪物 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 悬疑（日本 · 一桩校园冲突的三个版本）</span><span class="year">2023 · 日本 · 127 分钟 · 内地未映</span></div>
+        <h2>怪物 <span class="en">Monster</span></h2>
+        <div class="rates"><span class="rate"><b>8.6</b>豆瓣</span><span class="rate"><b>97%</b>烂番茄</span><span class="rate"><b>79</b>Metacritic</span><span class="rate"><b>7.8</b>IMDb</span></div>
+        <p class="oneline">「「谁是怪物？」——一桩校园冲突的三个版本，没有一个版本肯轻易放过你。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>单亲妈妈早织发现儿子凑最近行为异常：突然剪了头发、丢了球鞋、半夜出门、说「我的心被猪换走了」。她冲到学校，一口咬定老师保利虐待了儿子；保利反过来指出，是凑在霸凌一个家境复杂的同学依里。双方各不相让，事件越闹越大，媒体、家长、校长全被卷进来，保利违心认错、背下骂名，早织也被指「过度保护」。而在一个暴风雨的清晨，凑和依里一起失踪了——当影片第二次、第三次回到同一个下午，观众才慢慢看清「怪物」两个字到底该写给谁。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>是枝裕和执导，<b>编剧是坂元裕二</b>（《花束般的恋爱》《四重奏》）；配乐来自坂本龙一——<b>这是他去世前最后完成的作品之一</b>。</li><li>第 76 届戛纳电影节主竞赛：金棕榈提名，<b>拿下最佳编剧与酷儿棕榈奖</b>；2024 年亚洲电影大奖最佳导演。</li><li><b>全片三段结构：同一个下午，从妈妈、老师、孩子三个视角各讲一遍</b>——真相每翻一层，上一层的「真相」就被推翻一次。</li><li>两个小演员（黑川想矢、柊木阳太）贡献了<b>近年儿童表演里最克制的一对</b>：他们不是在演男孩，是在忍住。</li><li>安藤樱与永山瑛太的几场对峙戏，<b>把「成年人的自以为是」拍成了恐怖片</b>——观众以为自己看懂了，其实没有。</li><li>影片在日本也引发了「酷儿叙事如何被营销隐藏」的讨论——<b>是枝裕和本人在《朝日新闻》的对话中回应：他把结尾拍成两个选择活下来的孩子</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/monster_1050035_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/monster_1050035_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/monster_1050035_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_25645.jpg" alt="" loading="lazy">
+                <div class="p-name">是枝裕和 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">日本导演，《无人知晓》《如父如子》《海街日记》《小偷家族》——<b>2018 年凭《小偷家族》拿下金棕榈奖</b>。<b>往期第 30 期《小偷家族》的导演正是他。</b>本片入围戛纳主竞赛，编剧坂元裕二拿下最佳编剧，是枝裕和则拿到 2024 年亚洲电影大奖最佳导演。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_505192.jpg" alt="" loading="lazy"><span>小偷家族</span></div><div class="wk"><img src="assets/movies/w_177945.jpg" alt="" loading="lazy"><span>如父如子</span></div><div class="wk"><img src="assets/movies/w_2517.jpg" alt="" loading="lazy"><span>无人知晓</span></div><div class="wk"><img src="assets/movies/w_315846.jpg" alt="" loading="lazy"><span>海街日记</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_100766.jpg" alt="" loading="lazy">
+                <div class="p-name">安藤樱 <span class="p-role">主演（早织）</span></div>
+              </div>
+              <div class="p-note">日本演员，《百元之恋》《爱的曝光》《哥斯拉-1.0》，<b>2018 年主演《小偷家族》</b>。本片她演早织——一个「为了保护儿子而毁掉一切」的妈妈。<b>往期第 30 期《小偷家族》的主创卡片上就是她。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_505192.jpg" alt="" loading="lazy"><span>小偷家族</span></div><div class="wk"><img src="assets/movies/w_940721.jpg" alt="" loading="lazy"><span>哥斯拉-1.0</span></div><div class="wk"><img src="assets/movies/w_28422.jpg" alt="" loading="lazy"><span>爱的曝光</span></div><div class="wk"><img src="assets/movies/w_314606.jpg" alt="" loading="lazy"><span>百元之恋</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_117975.jpg" alt="" loading="lazy">
+                <div class="p-name">永山瑛太 <span class="p-role">主演（保利）</span></div>
+              </div>
+              <div class="p-note">日本演员，《夏日时光机》《被嫌弃的松子的一生》《一命》。本片他演保利——一个被「正确」两个字慢慢绞死的老师。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_31512.jpg" alt="" loading="lazy"><span>被嫌弃的松子的一生</span></div><div class="wk"><img src="assets/movies/w_85836.jpg" alt="" loading="lazy"><span>一命</span></div><div class="wk"><img src="assets/movies/w_26130.jpg" alt="" loading="lazy"><span>夏日时光机</span></div><div class="wk"><img src="assets/movies/w_5889.jpg" alt="" loading="lazy"><span>少女杀手阿墨</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3860313.jpg" alt="" loading="lazy">
+                <div class="p-name">黑川想矢 <span class="p-role">主演（凑）</span></div>
+              </div>
+              <div class="p-note">日本儿童演员。本片他演凑——<b>一个把「我想让你消失」说成「我的心被猪换走了」的男孩</b>。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1379266.jpg" alt="" loading="lazy"><span>国宝</span></div><div class="wk"><img src="assets/movies/w_1379045.jpg" alt="" loading="lazy"><span>地震之后</span></div><div class="wk"><img src="assets/movies/w_1235431.jpg" alt="" loading="lazy"><span>【我推的孩子】电影版</span></div><div class="wk"><img src="assets/movies/w_1510327.jpg" alt="" loading="lazy"><span>仰望今夏的星空</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一笔，是第二遍重看时你会发现：第一遍里那个「明显在虐待学生的老师」，在第二遍里只是一个被错误吞掉的人。轻微剧透：结尾两个孩子在风暴里跑进一截废弃车厢，把「怪物」两个字留给了所有大人。这不是一部关于校园欺凌的电影，是一部关于「每个人如何用自己的真相伤害别人」的电影。三段结构看完，你会怀疑自己第一段时的全部判断。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「悬疑片能把叙事玩得多诚实」的人；能接受多视角结构、没有反派、以及它本质上是一部关于「理解之难」的电影的观众。分级 PG-13，可放心观看；内地未映，流媒体可看。看完想继续：《小偷家族》（往期第 30 期，同导演）、《无人知晓》《如父如子》（同导演）、《花束般的恋爱》（同编剧）。</p>
+    </div>
+  </section>
+  <section class="card" id="m5">
+    <div class="no">05</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/flower_466420_poster.jpg" alt="花月杀手 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">悬疑 / 惊悚 / 剧情 / 犯罪（美国 · 石油、印第安人与一桩谋杀案）</span><span class="year">2023 · 美国 · 206 分钟 · 内地未映</span></div>
+        <h2>花月杀手 <span class="en">Killers of the Flower Moon</span></h2>
+        <div class="rates"><span class="rate"><b>7.2</b>豆瓣</span><span class="rate"><b>93%</b>烂番茄</span><span class="rate"><b>89</b>Metacritic</span><span class="rate"><b>7.5</b>IMDb</span></div>
+        <p class="oneline">「「石油改变了这里的一切，然后杀死了这里的人。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1920 年代，俄克拉何马。奥塞奇族人因为土地下突然冒出来的石油成了「人均最富」的族群，也成了猎捕者的目标：谋杀、诈骗、「监护婚姻」一层层压下来，死亡名单越列越长。从一战退伍的欧内斯特·伯克哈特投奔舅舅威廉·黑尔——当地呼风唤雨的牧场主，随即娶了奥塞奇女子莫莉。黑尔要的是莫莉家族的头产权，欧内斯特要的是舅舅的钱，而联邦调查局派来的怀特探长，正在把这些「意外死亡」一桩一桩翻出来。影片最后把时间交给莫莉，交给一个族群的丧失，也交给美国「现代执法体系」不怎么光彩的开端。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>马丁·斯科塞斯执导，<b>改编自大卫·格兰的非虚构名作《花月杀手》</b>——20 世纪 20 年代奥塞奇族连环谋杀案。</li><li><b>莱昂纳多·迪卡普里奥与罗伯特·德尼罗，继《赌城风云》（1995）之后时隔近三十年，再次在同一部斯科塞斯电影里演对手戏</b>。</li><li>莉莉·格莱斯顿凭莫莉成为<b>奥斯卡历史上第一位入围最佳女主角的原住民女性</b>，并拿下金球奖剧情类影后。</li><li>第 96 届奥斯卡十项提名（影片、导演、女主、男配、剧本、摄影、剪辑、配乐、艺术指导、服装），<b>最终零获奖</b>——与《伊尼舍林的报丧女妖》并列那一届的「遗珠双璧」。</li><li>影片因 206 分钟的片长引发讨论，<b>斯科塞斯与御用剪辑塞尔玛·斯昆梅克多次公开为片长辩护：这不是一部长电影，是一部完整的电影</b>。</li><li>配乐由罗比·罗伯森完成——斯科塞斯四十多年的老搭档，<b>这是他最后的电影配乐，也为他拿到奥斯卡提名</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/flower_466420_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/flower_466420_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/flower_466420_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1032.jpg" alt="" loading="lazy">
+                <div class="p-name">马丁·斯科塞斯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国导演，新好莱坞的活化石，《出租车司机》《愤怒的公牛》《好家伙》《华尔街之狼》。<b>往期第 12 期《禁闭岛》的导演正是他。</b>本片为他再添一次奥斯卡最佳导演提名。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_106646.jpg" alt="" loading="lazy"><span>华尔街之狼</span></div><div class="wk"><img src="assets/movies/w_11324.jpg" alt="" loading="lazy"><span>禁闭岛</span></div><div class="wk"><img src="assets/movies/w_1422.jpg" alt="" loading="lazy"><span>无间道风云</span></div><div class="wk"><img src="assets/movies/w_769.jpg" alt="" loading="lazy"><span>好家伙</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_6193.jpg" alt="" loading="lazy">
+                <div class="p-name">莱昂纳多·迪卡普里奥 <span class="p-role">主演（Ernest Burkhart）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡影帝（《荒野猎人》）。本片他演欧内斯特——一个被舅舅当枪使的退伍兵。<b>他在本期第 1 部《不要抬头》的卡片上已经出现过（同一张脸，两种被历史戏弄的方式）；往期第 4 期《一战再战》、第 12 期《禁闭岛》、第 35 期《盗梦空间》、第 45 期《荒野猎人》、第 47 期《猫鼠游戏》的卡片上也都有他——至今上过五期，是本期上卡次数最多的主创。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_27205.jpg" alt="" loading="lazy"><span>盗梦空间</span></div><div class="wk"><img src="assets/movies/w_597.jpg" alt="" loading="lazy"><span>泰坦尼克号</span></div><div class="wk"><img src="assets/movies/w_106646.jpg" alt="" loading="lazy"><span>华尔街之狼</span></div><div class="wk"><img src="assets/movies/w_11324.jpg" alt="" loading="lazy"><span>禁闭岛</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1183917.jpg" alt="" loading="lazy">
+                <div class="p-name">莉莉·格莱斯顿 <span class="p-role">主演（Mollie Burkhart）</span></div>
+              </div>
+              <div class="p-note">美国演员，原住民后裔（Piegan Blackfeet / Nez Perce 血统）。《某种女人》《第一头牛》。本片她演莫莉——<b>奥斯卡历史上第一位入围最佳女主角的原住民女性</b>，并拿下金球奖剧情类影后。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_340487.jpg" alt="" loading="lazy"><span>某种女人</span></div><div class="wk"><img src="assets/movies/w_558582.jpg" alt="" loading="lazy"><span>第一头牛</span></div><div class="wk"><img src="assets/movies/w_1058617.jpg" alt="" loading="lazy"><span>Fancy Dance</span></div><div class="wk"><img src="assets/movies/w_1278827.jpg" alt="" loading="lazy"><span>喜宴</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_380.jpg" alt="" loading="lazy">
+                <div class="p-name">罗伯特·德尼罗 <span class="p-role">主演（William Hale）</span></div>
+              </div>
+              <div class="p-note">美国演员，奥斯卡影帝（《愤怒的公牛》《教父2》）。《好家伙》《出租车司机》《爱尔兰人》。本片他演黑尔——一个把「亲人」当猎物的牧场主，凭此片拿到奥斯卡最佳男配提名。<b>往期第 16 期《妙想天开》（饰钻管道的修理工）与第 48 期《盗火线》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_769.jpg" alt="" loading="lazy"><span>好家伙</span></div><div class="wk"><img src="assets/movies/w_475557.jpg" alt="" loading="lazy"><span>小丑</span></div><div class="wk"><img src="assets/movies/w_103.jpg" alt="" loading="lazy"><span>出租车司机</span></div><div class="wk"><img src="assets/movies/w_398978.jpg" alt="" loading="lazy"><span>爱尔兰人</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最让人坐不住的一场戏，是莫莉一次次问「我家里的人怎么了」，而镜头始终不肯给她一个答案。轻微剧透：影片没有把联邦调查局拍成救世主——他们的登场反而带上一层反讽：一个族群的血流干了，「现代执法」才登场。斯科塞斯拍的是一杯石油的距离如何改变一个民族的命运。206 分钟很长，但它的长度本身就是论点：有些事必须被讲完，不能被打包成「看点」。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「史诗片能把殖民与资本的账算得多细」的人；能接受漫长节奏、大量白描对白、以及它本质上是一部关于「贪婪如何变成制度」的电影的观众。内地未映，Apple TV+ 流媒体可看，2026 年起有 CC 版影碟。看完想继续：《花月杀手》原著（大卫·格兰）、《爱尔兰人》《好家伙》（同导演）、《聚焦》（往期第 25 期，同为一桩被制度掩埋的真实罪案）。</p>
+    </div>
+  </section>
+  <section class="card" id="m6">
+    <div class="no">06</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/river_1115379_poster.jpg" alt="河边的错误 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">悬疑 / 惊悚 / 剧情（中国 · 1995 年江南小镇的一桩河边凶案）</span><span class="year">2023 · 中国 · 102 分钟 · 内地已映（2023-10-21）</span></div>
+        <h2>河边的错误 <span class="en">Only the River Flows</span></h2>
+        <div class="rates"><span class="rate"><b>7.2</b>豆瓣</span><span class="rate"><b>85%</b>烂番茄</span><span class="rate"><b>6.6</b>IMDb</span></div>
+        <p class="oneline">「「凶手抓到了，故事才刚刚开始。」——马哲在河边丢掉的不只是理智。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1995 年，江南小镇沛水县。刑警队长马哲接手一桩河边凶案：养鹅的幺四婆婆死在河边，现场留下一盘磁带和一个男孩的证词。嫌疑人一个个浮出水面——有家室的诗人王宏、异装裁缝许亮、被婆婆收留的「疯子」——又一个个死去或失控。局里催着结案申报，马哲却在证词里发现了越来越多的窟窿；他记不起自己在云南立过的三等功，而电影院改成的刑警队办公室里，投影仪把案情一段段放给他看。真相在河水的反光里越来越远，马哲自己的精神状态，成了这桩案子最后一个说不清的现场。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>改编自余华 1988 年首发于《钟山》的同名中篇——<b>先锋文学里最「不好改」的文本之一，被魏书钧拍成了一部 102 分钟的犯罪剧情片</b>。</li><li><b>入围第 76 届戛纳电影节「一种关注」单元</b>，并在平遥国际电影展拿下最佳影片与迷影选择荣誉奖。</li><li>朱一龙凭马哲拿下 2025 年金熊猫奖电影单元最佳男主角——<b>他把一个基层刑警的疲惫与偏执，演得让人分不清是入戏还是入魔</b>。</li><li>摄影程马后来凭本片拿到长春电影节金鹿奖最佳摄影，<b>胶片质感把 1995 年的江南拍成了一卷受潮的录像带</b>。</li><li>内地票房约 3.09 亿元——<b>国产艺术片「破圈」的标本级案例</b>：靠罪案框架降低门槛，靠短视频与二创完成传播。</li><li>结局没有给「真相」一个交代，而是把答案交给了马哲的孩子——<b>这个处理让它在豆瓣常年被争论，7.2 分是近几年艺术片里最分裂的一档</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/river_1115379_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/river_1115379_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/river_1115379_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2021340.jpg" alt="" loading="lazy">
+                <div class="p-name">魏书钧 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">中国导演，1991 年生，是中国「九零后」导演里最早进入三大电影节的人。《野马分鬃》《永安镇故事集》。本片改编自余华同名小说，为他拿到平遥最佳影片。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_838167.jpg" alt="" loading="lazy"><span>永安镇故事集</span></div><div class="wk"><img src="assets/movies/w_712164.jpg" alt="" loading="lazy"><span>野马分鬃</span></div><div class="wk"><img src="assets/movies/w_517666.jpg" alt="" loading="lazy"><span>延边少年</span></div><div class="wk"><img src="assets/movies/w_1297238.jpg" alt="" loading="lazy"><span>阳光俱乐部</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1743471.jpg" alt="" loading="lazy">
+                <div class="p-name">朱一龙 <span class="p-role">主演（马哲）</span></div>
+              </div>
+              <div class="p-note">中国演员，凭《人生大事》拿下金鸡奖最佳男主角。《峰爆》《消失的她》《东极岛》。本片他演马哲——一个被案件磨成粉末的刑警队长，2025 年凭此片拿下金熊猫奖最佳男主角。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_862855.jpg" alt="" loading="lazy"><span>峰爆</span></div><div class="wk"><img src="assets/movies/w_1108211.jpg" alt="" loading="lazy"><span>消失的她</span></div><div class="wk"><img src="assets/movies/w_1305653.jpg" alt="" loading="lazy"><span>东极岛</span></div><div class="wk"><img src="assets/movies/w_945664.jpg" alt="" loading="lazy"><span>人生大事</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1749258.jpg" alt="" loading="lazy">
+                <div class="p-name">曾美慧孜 <span class="p-role">主演（白洁）</span></div>
+              </div>
+              <div class="p-note">中国演员，香港电影金像奖影后提名（《三夫》）。《南方车站的聚会》《地球最后的夜晚》。本片她演白洁——马哲的妻子，全片唯一一个把「现实」当回事的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_575428.jpg" alt="" loading="lazy"><span>南方车站的聚会</span></div><div class="wk"><img src="assets/movies/w_486898.jpg" alt="" loading="lazy"><span>地球最后的夜晚</span></div><div class="wk"><img src="assets/movies/w_550353.jpg" alt="" loading="lazy"><span>三夫</span></div><div class="wk"><img src="assets/movies/w_676819.jpg" alt="" loading="lazy"><span>金钱男孩</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最不对劲的一场戏，是马哲在电影院里放着幻灯，忽然和死去的人对视。轻微剧透：结尾他在河边「抓到」了疯子，也拿到了三等功——可孩子出生那场戏，把这一切都变成了问号。魏书钧没有拍「真相」，他拍的是一个人如何被真相磨成粉末；观众以为自己在看侦探片，其实在看一部关于「世界上有些事没有答案」的片。看完你会反复回想那个孩子的脸——那是全片唯一一个从头到尾都清醒的人。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「悬疑片能把类型与作者性缝得多紧」的人；能接受荒诞结局、开放式答案、以及它本质上是一部关于「现实感如何崩塌」的电影的观众。内地已映，优酷、爱奇艺可看。看完想继续：《河边的错误》原著（余华）、《野马分鬃》《永安镇故事集》（同导演）、《消失的她》（同主演，把「执念」拍成了另一种悬疑）。</p>
+    </div>
+  </section>
+  <section class="card" id="m7">
+    <div class="no">07</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/grandma_1103621_poster.jpg" alt="姥姥的外孙 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 家庭（泰国 · 一个全职孙子的继承之战）</span><span class="year">2024 · 泰国 · 125 分钟 · 内地已映（2024-08-23）</span></div>
+        <h2>姥姥的外孙 <span class="en">How to Make Millions Before Grandma Dies</span></h2>
+        <div class="rates"><span class="rate"><b>8.8</b>豆瓣</span><span class="rate"><b>98%</b>烂番茄</span><span class="rate"><b>74</b>Metacritic</span><span class="rate"><b>7.9</b>IMDb</span></div>
+        <p class="oneline">「「儿子继承遗产，女儿继承癌症。」——一句冰箱前的家常话，装下了整个东亚家庭。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>出身泰国华人家庭的无业青年阿安，看到堂妹因为照顾病重的爷爷继承了房产，于是把同样的算盘打到了姥姥身上：姥姥确诊了癌症，他退掉工作、搬去姥姥的粥摊边当「全职孝孙」，目标是那间老屋的继承权。可竞争不止他一个：大舅带着礼物回来，小舅哭穷，而真正天天陪诊、收拾剩菜的，却总是妈妈。阿安一边和舅舅们斗法，一边在姥姥的门前守望、陪她卖粥、听她讲过去——那颗原本冲着遗产去的心，被一个老人最后的时光一天天焐热。而姥姥心里早有一本账：房子留给最不成器的小儿子，陪伴留给了一直在付出的女儿。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li><b>豆瓣 8.8，豆瓣评分最高的泰国电影</b>；烂番茄 98%——一部家庭伦理片拿到了恐怖片级别的口碑。</li><li>泰国 2024 年票房冠军（3.37 亿泰铢），<b>全球票房超过 10 亿泰铢</b>；内地 2024-08-23 上映，最终约 1.27 亿元，是那年暑期档最大的口碑黑马。</li><li><b>代表泰国角逐第 97 届奥斯卡最佳国际影片并进入 15 部短名单——第一部做到这件事的泰国电影</b>；2025 年泰国电影金天鹅奖上拿下包括最佳影片与最佳女演员在内的 9 项大奖。</li><li>导演帕特·波尼蒂帕特<b>刻意不用配乐煽情</b>：全片的情绪靠潮汕话、童谣和粥摊的蒸汽完成。</li><li>姥姥的扮演者乌萨·萨梅坎姆是<b>素人演员</b>，导演试遍大量非职业演员后选了她——她凭此片拿到金天鹅奖最佳女演员。</li><li>影片把「遗产」拍成了一场家庭社会学田野调查：<b>空巢、临终关怀、照护劳动、女性在家庭里的无偿付出，全部装进一部没有反派的电影</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/grandma_1103621_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/grandma_1103621_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/grandma_1103621_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2730142.jpg" alt="" loading="lazy">
+                <div class="p-name">帕特·波尼蒂帕特 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">泰国导演，以剧集《天才枪手》剧集版成名，本片是他的电影代表作——<b>一部不用配乐煽情、靠细节堆出泪点的家庭片</b>。他本期第一次出现在片单卡片上。</div>
+              
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2729283.jpg" alt="" loading="lazy">
+                <div class="p-name">普提蓬·阿萨拉塔纳功 <span class="p-role">主演（阿安）</span></div>
+              </div>
+              <div class="p-note">泰国演员、歌手，因泰剧《以你的心诠释我的爱》火遍亚洲。本片是他的第一部主演电影——<b>他把阿安的「算计」与「真心」演得像同一个人在两周之内长大</b>。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1317920.jpg" alt="" loading="lazy"><span>冥婚红包</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_4544982.jpg" alt="" loading="lazy">
+                <div class="p-name">乌莎·西姆库姆 <span class="p-role">主演（明珠姥姥）</span></div>
+              </div>
+              <div class="p-note">泰国素人演员，被导演从大量非职业演员中试出。本片她演明珠姥姥——<b>临终前那场没有台词的戏，只靠呼吸与手指完成，为她拿到泰国金天鹅奖最佳女演员</b>。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1167366.jpg" alt="" loading="lazy"><span>天王星2324</span></div><div class="wk"><img src="assets/movies/w_1671548.jpg" alt="" loading="lazy"><span>给阿嬷的情书</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1659249.jpg" alt="" loading="lazy">
+                <div class="p-name">莎琳雷特·托马斯 <span class="p-role">主演（阿安的妈妈 Sew）</span></div>
+              </div>
+              <div class="p-note">泰国演员，《天才枪手》《厉鬼将映》《海啸奇迹》。本片她演阿安的妈妈——<b>「儿子继承遗产，女儿继承癌症」那句话，就是她说给这个家的</b>。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_80278.jpg" alt="" loading="lazy"><span>海啸奇迹</span></div><div class="wk"><img src="assets/movies/w_455714.jpg" alt="" loading="lazy"><span>天才枪手</span></div><div class="wk"><img src="assets/movies/w_16313.jpg" alt="" loading="lazy"><span>厉鬼将映</span></div><div class="wk"><img src="assets/movies/w_37963.jpg" alt="" loading="lazy"><span>鬼乱5</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一场戏在冰箱前：姥姥提醒女儿别总吃过期食物，担心她也得癌症——一句话把「谁在这个家里一直被消耗」说完了。轻微剧透：房子最后还是给了最不成器的小儿子，而阿安问姥姥「为什么爱错人」，姥姥没有辩解。这部电影没有反派，甚至没有一个「觉醒」的时刻；它的温柔与锋利来自同一样东西——它让观众在自己的家庭里认出了每一个角色。准备好纸巾，但它不靠煽情赢你。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「家庭片能拍得多不滥情」的人；建议和父母一起看，或者独自看完再给他们打个电话。内地已映，流媒体可看。看完想继续：《天才枪手》（同厂牌 GDH 的另一部神作）、《姥姥的外孙》的潮汕话片段（官方发布过）、《步履不停》（是枝裕和，同一片土壤长出的另一种家庭叙事）。</p>
+    </div>
+  </section>
+  <section class="card" id="m8">
+    <div class="no">08</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/anora_1064213_poster.jpg" alt="阿诺拉 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 喜剧 / 爱情（美国 · 布鲁克林的一场闪婚）</span><span class="year">2024 · 美国 · 135 分钟 · 内地未映</span></div>
+        <h2>阿诺拉 <span class="en">Anora</span></h2>
+        <div class="rates"><span class="rate"><b>6.3</b>豆瓣</span><span class="rate"><b>93%</b>烂番茄</span><span class="rate"><b>91</b>Metacritic</span><span class="rate"><b>7.4</b>IMDb</span></div>
+        <p class="oneline">「「拉斯维加斯一夜之后，童话开始按账单结算。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>布鲁克林布莱顿海滩，性工作者阿尼在俱乐部遇到了俄罗斯寡头的儿子伊万，两人一通狂躁的拉斯维加斯闪婚，换了驾照也换了「阶层」。消息传回俄罗斯，伊万的父母飞到纽约，要让这桩婚姻作废之前先算账：管家带着人马封了阿尼的住处，递上一笔「遣散费」。阿尼不肯，满城找人、闯豪宅、对着镜头咆哮，而全程真正陪着她的，是寡头家那个沉默的俄罗斯跟班伊戈尔。一场以亿美元为单位的离婚谈判，最后回到两个一无所有的人之间。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>第 77 届戛纳电影节金棕榈奖；第 97 届奥斯卡<b>最佳影片、最佳导演、最佳女主角、最佳原创剧本、最佳剪辑五项大奖</b>。</li><li><b>肖恩·贝克用约 600 万美元预算拍完，全球票房约 5930 万美元</b>——回报率接近十倍，是 2024 年性价比最高的「申奥片」。</li><li>影片在布莱顿海滩<b>以游击式实景拍摄</b>，大量启用非职业演员与真实街景——与《橘色》《佛罗里达乐园》一脉相承。</li><li>开画票房纪录：首周末 6 家影院进账 55 万美元，<b>单馆 91751 美元，是 2024 年最好的开画之一</b>。</li><li>麦琪·麦迪森从《惊声尖叫5》里的配角一路演到奥斯卡影后；<b>尤拉·鲍里索夫凭伊戈尔拿到最佳男配提名，这是他第一部英语片</b>。</li><li>口碑落差极大：烂番茄 93% / Metacritic 91，豆瓣只有 6.3——<b>本期「东西方评分差」最大的一部</b>，中文观众多嫌它吵、糙、不讨喜。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/anora_1064213_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/anora_1064213_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/anora_1064213_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_118415.jpg" alt="" loading="lazy">
+                <div class="p-name">肖恩·贝克 <span class="p-role">导演 / 编剧 / 剪辑</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、剪辑，长期把镜头对准美国边缘群体。《橘色》《佛罗里达乐园》《红色火箭》。本片让他一晚拿下三座小金人（影片、导演、原创剧本）。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_394117.jpg" alt="" loading="lazy"><span>佛罗里达乐园</span></div><div class="wk"><img src="assets/movies/w_308084.jpg" alt="" loading="lazy"><span>橘色</span></div><div class="wk"><img src="assets/movies/w_763329.jpg" alt="" loading="lazy"><span>红色火箭</span></div><div class="wk"><img src="assets/movies/w_91679.jpg" alt="" loading="lazy"><span>待绽蔷薇</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1640439.jpg" alt="" loading="lazy">
+                <div class="p-name">麦琪·麦迪森 <span class="p-role">主演（Ani）</span></div>
+              </div>
+              <div class="p-note">美国演员，凭《惊声尖叫5》里的配角被记住。《好莱坞往事》《社交网络：清算时刻》（2026，饰 Facebook 吹哨人）。本片她演阿尼——一个把「灰姑娘」活成劳工史诗的布鲁克林性工作者，<b>凭此片拿下奥斯卡影后、金球奖与 BAFTA 最佳女主角，也是史上第一位 95 后奥斯卡影后</b>。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_646385.jpg" alt="" loading="lazy"><span>惊声尖叫5</span></div><div class="wk"><img src="assets/movies/w_466272.jpg" alt="" loading="lazy"><span>好莱坞往事</span></div><div class="wk"><img src="assets/movies/w_1281331.jpg" alt="" loading="lazy"><span>社交清算</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1266686.jpg" alt="" loading="lazy">
+                <div class="p-name">尤拉·鲍里索夫 <span class="p-role">主演（Igor）</span></div>
+              </div>
+              <div class="p-note">俄罗斯演员，《六号车厢》之后在国际影坛被看见。本片是他的第一部英语片，演寡头家那个沉默的跟班伊戈尔——<b>全片最「不表演」的表演，为他拿到奥斯卡最佳男配提名</b>。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_592279.jpg" alt="" loading="lazy"><span>卡拉什尼科夫</span></div><div class="wk"><img src="assets/movies/w_588182.jpg" alt="" loading="lazy"><span>六号车厢</span></div><div class="wk"><img src="assets/movies/w_514207.jpg" alt="" loading="lazy"><span>莫斯科陷落2</span></div><div class="wk"><img src="assets/movies/w_818621.jpg" alt="" loading="lazy"><span>沃尔科诺戈夫上尉逃亡记</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最好也最冷的一场戏，是阿尼和伊万在市政厅排队结婚时，旁边的人正在为一张合影收费。轻微剧透：影片最后停在一个「没有人被拯救」的拥抱里——伊戈尔跪下来抱住崩溃的阿尼，而这场以亿美元为单位的战争，最后只剩两个坐在地板上的人。贝克没有把阿尼写成受害者，也没有把她写成英雄：她只是一个把童话当真、然后被账单教育的人。这是 2024 年最吵也最诚实的电影。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看 「爱情片能拍得多不像爱情片」的人；能接受大量吼叫戏、粗口直给、以及它本质上是一部关于「阶级如何定价感情」的电影的观众。R 级，建议成年观看。内地未映，流媒体与 CC 版蓝光可看。看完想继续：《佛罗里达乐园》《橘色》（同导演）、《红色火箭》（同导演）。</p>
+    </div>
+  </section>
+  <section class="card" id="m9">
+    <div class="no">09</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/pain_1013850_poster.jpg" alt="真正的痛苦 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 喜剧（波兰 / 美国 · 两个堂兄弟的创伤之旅）</span><span class="year">2024 · 波兰 / 美国 · 90 分钟 · 内地未映</span></div>
+        <h2>真正的痛苦 <span class="en">A Real Pain</span></h2>
+        <div class="rates"><span class="rate"><b>7.8</b>豆瓣</span><span class="rate"><b>96%</b>烂番茄</span><span class="rate"><b>85</b>Metacritic</span><span class="rate"><b>7.0</b>IMDb</span></div>
+        <p class="oneline">「「我们不是来旅游的，我们是来难受的。」——一堂关于创伤、阶级与身份的 90 分钟公开课。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>大卫和班吉是一对多年不和的堂兄弟，奶奶多莉去世后留下钱，让他们去波兰走一趟「根源之旅」。大卫是纽约的乖乖牌，有妻有子，说话留三分；班吉语速快、脾气直、情绪像没装刹车的卡车，刚下飞机就把导游詹姆斯逼到墙角。行程从华沙的犹太区走到集中营、走到奶奶长大的小镇，白天是墓碑与铁轨，晚上是两瓶伏特加和不肯松口的旧怨。班吉一次次把气氛推到失控，又一次次在最不该软下来的地方软下来——直到那通电话，大卫才第一次听懂弟弟这些年到底在扛什么。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>杰西·艾森伯格<b>自编自导自演的第二部长片</b>——从《社交网络》里的扎克伯格走到圣丹斯，他走了十四年。</li><li>第 40 届圣丹斯电影节<b>沃尔多·索尔特编剧奖</b>；第 97 届奥斯卡最佳原创剧本提名，<b>基兰·卡尔金拿下最佳男配角</b>。</li><li>卡尔金同时拿下 BAFTA 最佳男配与金球奖最佳男配——<b>一个从《小鬼当家》里的小屁孩演到《继承之战》的罗伊，终于拿到了自己的奥斯卡</b>。</li><li>影片体量极小——<b>90 分钟、两个演员、一趟波兰大巴，全球票房约 1960 万美元，小成本电影的极限性价比</b>。</li><li>探照灯影业发行，<b>艾玛·斯通的 Fruit Tree 出任制片人</b>——她与艾森伯格的合作从《僵尸之地》延续到了这里。</li><li>它没有把大屠杀当成背景板：<b>「谁有资格为一份自己没有亲历的创伤难受」，是这部喜剧最疼的暗线</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/pain_1013850_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/pain_1013850_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/pain_1013850_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_44735.jpg" alt="" loading="lazy">
+                <div class="p-name">杰西·艾森伯格 <span class="p-role">导演 / 编剧 / 主演</span></div>
+              </div>
+              <div class="p-note">美国演员、编剧、导演，《僵尸之地》《社交网络》《惊天魔盗团》。本片是他第二部自编自导长片，为他拿到奥斯卡最佳原创剧本提名。<b>往期第 22 期《僵尸之地》与第 34 期《社交网络》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_75656.jpg" alt="" loading="lazy"><span>惊天魔盗团</span></div><div class="wk"><img src="assets/movies/w_37799.jpg" alt="" loading="lazy"><span>社交网络</span></div><div class="wk"><img src="assets/movies/w_19908.jpg" alt="" loading="lazy"><span>丧尸乐园</span></div><div class="wk"><img src="assets/movies/w_291805.jpg" alt="" loading="lazy"><span>惊天魔盗团2</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_18793.jpg" alt="" loading="lazy">
+                <div class="p-name">基兰·卡尔金 <span class="p-role">主演（Benji）</span></div>
+              </div>
+              <div class="p-note">美国演员，童星出身（《小鬼当家》），凭《继承之战》里的罗伊拿下艾美奖。本片他演班吉——<b>一个把「难受」当成唯一诚实的家伙</b>，凭此片拿下奥斯卡、BAFTA、金球奖三座最佳男配。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_22538.jpg" alt="" loading="lazy"><span>歪小子斯科特对抗全世界</span></div><div class="wk"><img src="assets/movies/w_771.jpg" alt="" loading="lazy"><span>小鬼当家</span></div><div class="wk"><img src="assets/movies/w_772.jpg" alt="" loading="lazy"><span>小鬼当家2</span></div><div class="wk"><img src="assets/movies/w_11846.jpg" alt="" loading="lazy"><span>新岳父大人</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_939337.jpg" alt="" loading="lazy">
+                <div class="p-name">威尔·夏普 <span class="p-role">主演（导游 James）</span></div>
+              </div>
+              <div class="p-note">英国演员、编剧、导演，日英混血（母亲是日本人，童年在东京长大）。自编自导主演的剧集《Flowers》第一季获英国电影学院奖最佳喜剧类剧集，执导长片《The Electrical Life of Louis Wain》（2021），并凭《白莲花度假村》第二季拿到艾美奖提名。《艾曼纽》。本片他演导游詹姆斯——<b>全团唯一一个「专业服务业从业者」，也是这对兄弟之间唯一的中立国</b>。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_976576.jpg" alt="" loading="lazy"><span>艾曼纽</span></div><div class="wk"><img src="assets/movies/w_926899.jpg" alt="" loading="lazy"><span>房子</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最重的一场戏在墓园的台阶上：班吉终于安静下来，而大卫发现自己「什么感觉都没有」。轻微剧透：结尾落在两处——机场里班吉追上来抱住大卫；以及回家之后，大卫在自己那张一切正常的餐桌前突然哭到停不下来。这部电影最狠的设定是全程没有坏人：班吉不是「问题」，大卫的「正常」也不是「答案」。90 分钟很短，后劲很长——它会让你想起自己家里那个「不太联系但一直惦记」的人。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「喜剧能把沉重处理得多轻」的人；能接受公路片结构、大段对话、以及它本质上是一部关于「二代移民与创伤」的电影的观众。内地未映，Hulu 可看。看完想继续：《社交网络》（往期第 34 期，同主演）、《僵尸之地》（往期第 22 期，同主演）、《伊尼舍林的报丧女妖》（本期第 3 部，另一种「两个男人」）。</p>
+    </div>
+  </section>
+  <section class="card" id="m10">
+    <div class="no">10</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/brutal_549509_poster.jpg" alt="粗野派 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 传记（美国 / 英国 / 匈牙利 · 一个建筑师的美国梦）</span><span class="year">2024 · 英国 / 美国 / 匈牙利 · 215 分钟（含 15 分钟幕间）· 内地未映</span></div>
+        <h2>粗野派 <span class="en">The Brutalist</span></h2>
+        <div class="rates"><span class="rate"><b>7.2</b>豆瓣</span><span class="rate"><b>93%</b>烂番茄</span><span class="rate"><b>90</b>Metacritic</span><span class="rate"><b>7.2</b>IMDb</span></div>
+        <p class="oneline">「「他们让我成了他们。」——一座混凝土建筑，一个美国梦，和一份不能拒绝的合同。」」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1947 年，一艘远洋轮船靠岸。匈牙利犹太建筑师拉斯洛·托特——大屠杀幸存者，断掉的鼻梁、戒不掉的海洛因和一身包豪斯的理想——踏上费城，投奔经营家具店的表兄，睡在储藏间，靠街角接济站过活。他的图纸被人当成「儿童自行车」，直到宾夕法尼亚的实业家范布伦找上门：为他的「母亲」建一座社区中心，条件是建筑师从此归他所有。一桩交易把拉斯洛从废墟里捞出来，也把他一点点关进资本的牢笼：他被迫用海洛因止痛、在范布伦的宴席上陪笑，而远在东欧难民营的妻子埃尔兹贝特，正拖着瘫痪的双腿向他走来。影片分四幕，中间有 15 分钟幕间——像一栋粗野主义建筑那样庞大、沉重、不加修饰。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>第 81 届威尼斯电影节<b>银狮奖最佳导演</b>（另获费比西奖等，共五项）；第 97 届奥斯卡十项提名，<b>拿下最佳男主角、最佳摄影、最佳原创配乐</b>。</li><li>阿德里安·布罗迪继《钢琴家》之后<b>第二次拿到奥斯卡影帝</b>——同一张「被历史碾过的脸」，隔了二十三年。</li><li>片长 215 分钟，中间有真正的 15 分钟幕间休息——<b>它拒绝被剪成「可观看的时长」，坚持用建筑的体量压向观众</b>。</li><li>摄影指导洛尔·克劳利用 <b>VistaVision 摄影机配 35mm 胶片</b>，质感直接致敬《迷魂记》；配乐家丹尼尔·布隆伯格拿下奥斯卡。</li><li>影片在匈牙利布达佩斯拍摄，<b>美术指导朱迪·贝克为「范布伦社区中心」搭出了整座粗野主义建筑的内景</b>。</li><li>2024 年口碑最分裂的「史诗」之一：烂番茄 93% / Metacritic 90，豆瓣 7.2——<b>有人看到美国梦的讣告，有人看到一位导演的失控</b>；片方用 AI 修正匈牙利语发音的操作，当年也引发过一场关于「表演真实性」的争论。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/brutal_549509_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/brutal_549509_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/brutal_549509_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_55493.jpg" alt="" loading="lazy">
+                <div class="p-name">布拉迪·科贝特 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国演员转导演，《战前童年》一鸣惊人。本片是他写了七年、经历无数次融资失败才拍成的<b>三小时半史诗</b>，为他拿到威尼斯银狮奖与奥斯卡最佳导演提名。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_499932.jpg" alt="" loading="lazy"><span>神弃之地</span></div><div class="wk"><img src="assets/movies/w_429202.jpg" alt="" loading="lazy"><span>光之声</span></div><div class="wk"><img src="assets/movies/w_330982.jpg" alt="" loading="lazy"><span>战前童年</span></div><div class="wk"><img src="assets/movies/w_1401281.jpg" alt="" loading="lazy"><span>安·李的遗嘱</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3490.jpg" alt="" loading="lazy">
+                <div class="p-name">阿德里安·布罗迪 <span class="p-role">主演（László Tóth）</span></div>
+              </div>
+              <div class="p-note">美国演员，<b>2003 年凭《钢琴家》成为最年轻的奥斯卡影帝</b>。本片他演被战争与资本两次碾过的匈牙利建筑师拉斯洛，二十三年后第二次拿到奥斯卡最佳男主角。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_423.jpg" alt="" loading="lazy"><span>钢琴家</span></div><div class="wk"><img src="assets/movies/w_34851.jpg" alt="" loading="lazy"><span>新铁血战士</span></div><div class="wk"><img src="assets/movies/w_254.jpg" alt="" loading="lazy"><span>金刚</span></div><div class="wk"><img src="assets/movies/w_120467.jpg" alt="" loading="lazy"><span>布达佩斯大饭店</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_72855.jpg" alt="" loading="lazy">
+                <div class="p-name">菲丽希缇·琼斯 <span class="p-role">主演（Erzsébet Tóth）</span></div>
+              </div>
+              <div class="p-note">英国演员，奥斯卡提名（《万物理论》）。《万物理论》《星球大战外传：侠盗一号》《但丁密码》。本片她演埃尔兹贝特——全片的道德锚点，凭此片拿到奥斯卡最佳女配提名。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_330459.jpg" alt="" loading="lazy"><span>星球大战外传1：侠盗一号</span></div><div class="wk"><img src="assets/movies/w_266856.jpg" alt="" loading="lazy"><span>万物理论</span></div><div class="wk"><img src="assets/movies/w_207932.jpg" alt="" loading="lazy"><span>但丁密码</span></div><div class="wk"><img src="assets/movies/w_102382.jpg" alt="" loading="lazy"><span>超凡蜘蛛侠2</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_529.jpg" alt="" loading="lazy">
+                <div class="p-name">盖·皮尔斯 <span class="p-role">主演（Harrison Lee Van Buren）</span></div>
+              </div>
+              <div class="p-note">澳大利亚演员，《记忆碎片》《钢铁侠3》《普罗米修斯》。本片他演范布伦——一个把天才当成权力配饰的美国资本家，凭此片拿到奥斯卡最佳男配提名。<b>往期第 36 期《记忆碎片》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_77.jpg" alt="" loading="lazy"><span>记忆碎片</span></div><div class="wk"><img src="assets/movies/w_68721.jpg" alt="" loading="lazy"><span>钢铁侠3</span></div><div class="wk"><img src="assets/movies/w_70981.jpg" alt="" loading="lazy"><span>普罗米修斯</span></div><div class="wk"><img src="assets/movies/w_2135.jpg" alt="" loading="lazy"><span>时间机器</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最冷的一场戏，是范布伦在宴会上谈起「我拥有你」时的那种理所当然。轻微剧透：影片的尾声跳到 1980 年的威尼斯建筑双年展——年迈的拉斯洛看到自己的作品终于被当成「作品」展出，而范布伦的帝国已经塌了。215 分钟不是炫技，是这部片的论点本身：它要求你像住进一栋建筑一样住进这个故事。看完你会明白片名为什么叫「粗野派」——粗粝、巨大、拒绝讨好，也因此经得起时间。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看 「史诗片能把美国梦拍得多冷」的人；能接受三小时半片长、沉重议题、以及它本质上是一部关于「才华如何被资本收编」的电影的观众。建议找一个不被打扰的夜晚，中途真的休息一次。内地未映，流媒体可看。看完想继续：《战前童年》《光之声》（同导演）、《钢琴家》（同主演，布罗迪的上一座奥斯卡）。</p>
+    </div>
+  </section>
+
+<footer>
+  片单由小月整理 · <span class="byline">by 浩</span><br>
+  图片素材来自 TMDB，仅作观影参考，版权归各片方所有。<br>
+  评分采集时间 2026-10-26；「轻微剧透」的短评会点到关键转折，但不泄露完整结局。
+</footer>
+</div>
+</body>
+</html>
